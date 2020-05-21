@@ -1,5 +1,7 @@
 'use strict';
-
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 const siteConfig = require('./config.js');
 
 module.exports = {

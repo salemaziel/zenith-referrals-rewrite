@@ -29,7 +29,7 @@ yarn-error.log*
 # firebase
 
 .firebase
-.firebaserc
+.firebaseC
 
 # gatsby
 .cache/
