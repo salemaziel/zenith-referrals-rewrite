@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-firebase-starter",
-  "description": "Starter for Authentication and creating Dynamic pages from collections with Firebase and Gatsby.js",
+  "name": "zenith-roofing-referral-rewards",
+  "description": "Zenith Roofing Services Referral Rewards",
   "scripts": {
     "develop": "gatsby develop",
     "start": "npm run develop",
@@ -30,6 +30,7 @@
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.8.0",
+    "react-simple-sidenav": "^2.0.0",
     "recompose": "^0.30.0"
   }
 }

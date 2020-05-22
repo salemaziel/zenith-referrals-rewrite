@@ -12,7 +12,14 @@ class Home extends Component {
   state = {
     posts: [],
     loading: true,
-    title: '',
+    clientfirstname: '',
+    clientlastname: '',
+    clientemail: '',
+    clientphone: '',
+    clientstreetaddress: '',
+    clientcity: '',
+    clientstate: '',
+    clientzip: '',
     description: '',
   };
 
@@ -38,8 +45,8 @@ class Home extends Component {
     firebase
       .posts()
       .get()
-      .then(querySnapshot => {
-        const data = querySnapshot.docs.map(item => item.data());
+      .then((querySnapshot) => {
+        const data = querySnapshot.docs.map((item) => item.data());
         this.setState({
           posts: data,
           loading: false,
@@ -47,33 +54,44 @@ class Home extends Component {
       });
   };
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
-    const { title, description, posts } = this.state;
+    const { posts, clientfirstname, clientlastname, clientemail, clientphone, clientstreetaddress, clientcity, clientstate, clientzip, description } = this.state;
     const { firebase } = this.props;
 
     let slug =
-      (title.match(/^[a-zA-Z0-9 ]*$/, '') &&
-        title.match(/^[a-zA-Z0-9 ]*$/, '')[0]) ||
+      (clientlastname.match(/^[a-zA-Z0-9 ]*$/, '') &&
+        clientlastname.match(/^[a-zA-Z0-9 ]*$/, '')[0]) ||
       '';
 
     const latestPost = {
-      title,
       slug:
-        slug
-          .toLowerCase()
-          .split(' ')
-          .join('-') +
+        slug.toLowerCase().split(' ').join('-') +
         Math.floor(Math.random() * 200) +
         1,
-      description,
+      clientfirstname, 
+      clientlastname, 
+      clientemail, 
+      clientphone, 
+      clientstreetaddress, 
+      clientcity, 
+      clientstate, 
+      clientzip,
+      description
     };
 
     const newPosts = [latestPost, ...posts];
 
     this.setState({
       posts: newPosts,
-      title: '',
+      clientfirstname: '',
+      clientlastname: '',
+      clientemail: '',
+      clientphone: '',
+      clientstreetaddress: '',
+      clientcity: '',
+      clientstate: '',
+      clientzip: '',
       description: '',
     });
 
@@ -82,7 +100,7 @@ class Home extends Component {
     });
   };
 
-  handleChange = e => {
+  handleChange = (e) => {
     const { name, value } = e.target;
     this.setState({
       [name]: value,
@@ -90,31 +108,92 @@ class Home extends Component {
   };
 
   render() {
-    const { posts, description, title, loading } = this.state;
+    const { posts, loading, clientfirstname, clientlastname, clientemail, clientphone, clientstreetaddress, clientcity, clientstate, clientzip, description } = this.state;
 
     if (loading) return <Loading />;
 
     return (
       <div className="home container">
         <div className="home__details">
-          <h1 className="home__title">Home Page</h1>
-          <p className="home__description">
-            The Home Page is accessible by every signed in user.
-          </p>
+          <h1 className="home__title">Dashboard</h1>
+       {/*   <p className="home__description">
+            Enter A New Referral:
+          </p>*/}
         </div>
 
         <div className="home__posts">
           <div className="home__posts__form">
-            <div className="home__posts__form__title">Add Posts</div>
+            <div className="home__posts__form__title">Add New Referral</div>
             <form onSubmit={this.handleSubmit}>
               <Input
-                name="title"
+                name="clientfirstname"
                 type="text"
-                value={title}
-                labelName="Title"
+                value={clientfirstname}
+                labelName="Client's First Name"
                 onChange={this.handleChange}
                 required
               />
+              <Input
+                name="clientlastname"
+                type="text"
+                value={clientlastname}
+                labelName="Client's Last Name"
+                onChange={this.handleChange}
+                required
+              />
+              <Input
+                name="clientemail"
+                type="email"
+                value={clientemail}
+                labelName="Client's Email"
+                onChange={this.handleChange}
+                required
+              />
+
+              <Input
+                name="clientphone"
+                type="tel"
+                value={clientphone}
+                labelName="Client's Phone"
+                onChange={this.handleChange}
+                required
+              />
+              <Input
+                name="clientstreetaddress"
+                type="text"
+                value={clientstreetaddress}
+                labelName="Client's Street Address"
+                onChange={this.handleChange}
+                required
+              />
+               <Input
+                name="clientcity"
+                type="text"
+                value={clientcity}
+                labelName="Client's City"
+                onChange={this.handleChange}
+                required
+              />
+
+              <Input
+                name="clientstate"
+                type="text"
+                value={clientstate}
+                labelName="Client's State"
+                placeholder="CA"
+                onChange={this.handleChange}
+                required
+              />         
+
+                             <Input
+                name="clientzip"
+                type="number"
+                value={clientzip}
+                labelName="Client's Zip Code"
+                onChange={this.handleChange}
+                required
+              />     
+
               <Input
                 name="description"
                 type="text"
@@ -142,20 +221,20 @@ class Home extends Component {
                   >
                     <Image
                       className="home__post__image"
-                      filename="gatsby-post-bg.jpg"
+                      filename="postBG.jpg"
                     />
                     <div className="home__post__text">
-                      {item.title && item.title < 30
-                        ? item.title
-                        : item.title.slice(0, 30) + '...'}
+                      {item.clientfirstname && item.clientfirstname < 30
+                        ? item.clientfirstname
+                        : item.clientfirstname.slice(0, 30) + '...'}
                       <div
                         className="home__post__description"
                         key={id}
                       >
-                        {item.description &&
-                        item.description.length > 150
-                          ? item.description.slice(0, 150)
-                          : item.description + '...'}
+                        {item.clientlastname &&
+                        item.clientlastname.length > 150
+                          ? item.clientlastname.slice(0, 150)
+                          : item.clientlastname + '...'}
                       </div>
                     </div>
                   </Link>

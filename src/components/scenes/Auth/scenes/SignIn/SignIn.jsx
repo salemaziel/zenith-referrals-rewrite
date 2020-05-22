@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 import SignInForm from '../../molecules/SignInForm';
 import SignInGoogle from '../../molecules/SignInGoogle';
-import SignInFacebook from '../../molecules/SignInFacebook';
-import SignInTwitter from '../../molecules/SignInTwitter';
+//import SignInFacebook from '../../molecules/SignInFacebook';
+//import SignInTwitter from '../../molecules/SignInTwitter';
 import SignUpLink from '../../scenes/SignUp/atoms/SignUpLink';
 import PasswordForgetLink from '../../../../molecules/PasswordForget/atoms/PasswordForgetLink';
-import SignInGithub from '../../molecules/SignInGithub';
-
+//import SignInGithub from '../../molecules/SignInGithub';
+import Logo from '../../../../../assets/full-logo-noBG-x512.png'
 class SignIn extends Component {
   render() {
     return (
@@ -17,8 +17,12 @@ class SignIn extends Component {
             <div className="login__content__header">
               <img
                 className="login__content__header__logo"
-                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1586498978/zenithroofing/logo/logo-vertical-dark-500x410_t74nkw.png"
+                /*src="https://res.cloudinary.com/dexdumfqy/image/upload/v1586498978/zenithroofing/logo/logo-vertical-dark-500x410_t74nkw.png"*/
+                src={Logo}
                 alt="logo"
+                style={{
+                  padding: '1rem 0'
+                }}
               />
               <div className="login__content__header__title">
                 Referral Rewards

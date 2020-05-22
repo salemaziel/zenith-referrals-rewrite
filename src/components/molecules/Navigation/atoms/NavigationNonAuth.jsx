@@ -4,9 +4,9 @@ import { LANDING, SIGN_IN } from '../../../../constants/routes';
 
 const NavigationNonAuth = () => (
   <ul>
-    <li>
+   {/* <li>
       <Link to={LANDING}>Landing</Link>
-    </li>
+    </li>*/}
     <li>
       <Link to={SIGN_IN}>Sign In</Link>
     </li>

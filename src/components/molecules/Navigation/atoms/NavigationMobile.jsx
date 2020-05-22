@@ -8,24 +8,24 @@ const NavigationAuth = () => (
     <div className="navbar-mobile__inner">
       <div className="navbar-mobile__left">
         <div className="navbar-mobile__logo">
-          <Link to={LANDING}>
+          <Link to={HOME}>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPQpF9FqbFiuhAohxs9UkTIkkJbAv_IU0cXHRxsKpoFFSgfXC7"
+              src="https://res.cloudinary.com/dexdumfqy/image/upload/v1586498978/zenithroofing/logo/logo-vertical-dark-500x410_t74nkw.png"
               alt="logo"
             />
           </Link>
         </div>
         <div className="navbar-mobile__links">
-          <div className="navbar-mobile__link">
+          {/* <div className="navbar-mobile__link">
             <Link to={LANDING}>Landing</Link>
+            </div> */}
+          <div className="navbar-mobile__link">
+            <Link to={HOME}>Dashboard</Link>
           </div>
           <div className="navbar-mobile__link">
-            <Link to={HOME}>Home</Link>
+            <Link to={ACCOUNT}>Settings</Link>
           </div>
-          <div className="navbar-mobile__link">
-            <Link to={ACCOUNT}>Account</Link>
-          </div>
-          <div className="navbar-mobile__link navbar-mobile__link--github">
+          {/*  <div className="navbar-mobile__link navbar-mobile__link--github">
             <span className="navbar-mobile__link--github__a">
               Created By{' '}
               <a href="https://github.com/ovidiumihaibelciug">
@@ -50,7 +50,7 @@ const NavigationAuth = () => (
                 height="20px"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

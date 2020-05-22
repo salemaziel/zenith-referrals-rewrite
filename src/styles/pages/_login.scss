@@ -5,7 +5,7 @@
   overflow: hidden;
   @include breakpoint('phone') {
     overflow: visible;
-    height: auto;
+    height: 100vh;
     padding: 30px;
     margin: 0 auto;
     background-image: linear-gradient(

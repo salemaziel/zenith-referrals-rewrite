@@ -17,6 +17,7 @@
       width: 30%;
       display: flex;
       flex-direction: column;
+      margin: auto;
       @include breakpoint('to-tablet-l') {
         width: 100%;
       }

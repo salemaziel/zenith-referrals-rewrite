@@ -47,18 +47,38 @@ class Post extends Component {
 
   render() {
     const { loading, post } = this.state;
-    const { isLoaded, title, description } = this.props;
+    const { isLoaded, clientfirstname, clientlastname, clientemail, clientphone, clientstreetaddress, clientcity, clientstate, clientzip, description } = this.props;
 
     const finalDescription = isLoaded
       ? description
       : post && post.description;
-    const finalTitle = isLoaded ? title : post && post.title;
+    const finalFirstName = isLoaded ? clientfirstname : post && post.clientfirstname;
+
+    const finalLastName = isLoaded ? clientlastname : post && post.clientlastname;
+
+    const finalEmail = isLoaded ? clientemail : post && post.clientemail;
+
+    const finalPhone = isLoaded ? clientphone : post && post.clientphone;
+
+    const finalStreetAddress = isLoaded ? clientstreetaddress : post && post.clientstreetaddress;
+
+    const finalCity = isLoaded ? clientcity : post && post.clientcity;
+
+    const finalState = isLoaded ? clientstate : post && post.clientstate;
+
+    const finalZip = isLoaded ? clientzip : post && post.clientzip;
 
     if (!isLoaded && loading) return null;
 
     return (
       <div className="post container">
-        <h1>{finalTitle}</h1>
+        <h1>{finalFirstName} <br />{finalLastName}</h1>
+        <div>{finalEmail}</div>
+        <div>{finalPhone}</div>
+        <div>{finalStreetAddress}</div>
+        <div>{finalCity}</div>
+        <div>{finalState}</div>
+        <div>{finalZip}</div>
         <div>{finalDescription}</div>
       </div>
     );

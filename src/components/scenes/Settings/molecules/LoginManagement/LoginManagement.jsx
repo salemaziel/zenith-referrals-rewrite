@@ -16,24 +16,24 @@ const SIGN_IN_METHODS = [
     name: 'google',
     Icon: FaGoogle,
   },
-  {
-    id: 'facebook.com',
-    provider: 'facebookProvider',
-    name: 'facebook',
-    Icon: FaFacebookF,
-  },
-  {
-    id: 'twitter.com',
-    provider: 'twitterProvider',
-    name: 'twitter',
-    Icon: FaTwitter,
-  },
-  {
-    id: 'github.com',
-    provider: 'githubProvider',
-    name: 'github',
-    Icon: FaGithub,
-  },
+//  {
+//    id: 'facebook.com',
+//    provider: 'facebookProvider',
+//    name: 'facebook',
+//    Icon: FaFacebookF,
+//  },
+//  {
+//    id: 'twitter.com',
+//    provider: 'twitterProvider',
+//    name: 'twitter',
+//    Icon: FaTwitter,
+//  },
+//  {
+//    id: 'github.com',
+//    provider: 'githubProvider',
+//    name: 'github',
+//    Icon: FaGithub,
+//  },
 ];
 
 class LoginManagement extends Component {

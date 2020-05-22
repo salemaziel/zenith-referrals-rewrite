@@ -16,11 +16,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Zenith Roofing Services Referral Rewards`,
+        short_name: `Zenith Roofing Referral Rewards`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#0d4879`,
+        theme_color: `#ff9900`,
         display: `standalone`,
         icon: `src/assets/icon.png`,
       },

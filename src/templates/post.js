@@ -17,7 +17,7 @@ const PostPage = compose(
 export class Post extends Component {
   render() {
     const {
-      pageContext: { title, description, slug },
+      pageContext: { clientfirstname, clientlastname, clientemail, clientphone, clientstreetaddress, clientcity, clientstate, clientzip, description, slug },
       uri,
     } = this.props;
 
@@ -30,7 +30,14 @@ export class Post extends Component {
     return (
       <Layout>
         <PostPage
-          title={title}
+          clientfirstname={clientfirstname}
+          clientlastname={clientlastname}
+          clientphone={clientphone}
+          clientemail={clientemail}
+          clientstreetaddress={clientstreetaddress}
+          clientcity={clientcity}
+          clientstate={clientstate}
+          clientzip={clientzip}
           description={description}
           slug={slug || uriSlug}
           isLoaded={isLoaded}

@@ -8,4 +8,15 @@
   &__password-change {
     margin: 50px 0;
   }
+  h1 {
+    font-size: 2rem;
+    @include breakpoint('phone') {
+      font-size: 1rem;
+      padding: 2rem 0;
+    }
+  }
+  @include breakpoint('phone') {
+    height: 100%;
+    min-height: 90vh;
+  }
 }
