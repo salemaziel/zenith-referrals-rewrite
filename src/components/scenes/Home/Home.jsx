@@ -56,7 +56,18 @@ class Home extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    const { posts, clientfirstname, clientlastname, clientemail, clientphone, clientstreetaddress, clientcity, clientstate, clientzip, description } = this.state;
+    const {
+      posts,
+      clientfirstname,
+      clientlastname,
+      clientemail,
+      clientphone,
+      clientstreetaddress,
+      clientcity,
+      clientstate,
+      clientzip,
+      description,
+    } = this.state;
     const { firebase } = this.props;
 
     let slug =
@@ -69,15 +80,15 @@ class Home extends Component {
         slug.toLowerCase().split(' ').join('-') +
         Math.floor(Math.random() * 200) +
         1,
-      clientfirstname, 
-      clientlastname, 
-      clientemail, 
-      clientphone, 
-      clientstreetaddress, 
-      clientcity, 
-      clientstate, 
+      clientfirstname,
+      clientlastname,
+      clientemail,
+      clientphone,
+      clientstreetaddress,
+      clientcity,
+      clientstate,
       clientzip,
-      description
+      description,
     };
 
     const newPosts = [latestPost, ...posts];
@@ -108,7 +119,19 @@ class Home extends Component {
   };
 
   render() {
-    const { posts, loading, clientfirstname, clientlastname, clientemail, clientphone, clientstreetaddress, clientcity, clientstate, clientzip, description } = this.state;
+    const {
+      posts,
+      loading,
+      clientfirstname,
+      clientlastname,
+      clientemail,
+      clientphone,
+      clientstreetaddress,
+      clientcity,
+      clientstate,
+      clientzip,
+      description,
+    } = this.state;
 
     if (loading) return <Loading />;
 
@@ -116,15 +139,28 @@ class Home extends Component {
       <div className="home container">
         <div className="home__details">
           <h1 className="home__title">Dashboard</h1>
-       {/*   <p className="home__description">
+          {/*   <p className="home__description">
             Enter A New Referral:
           </p>*/}
         </div>
 
         <div className="home__posts">
           <div className="home__posts__form">
-            <div className="home__posts__form__title">Add New Referral</div>
-            <form onSubmit={this.handleSubmit}>
+            <div className="home__posts__form__title">
+              Add New Referral
+            </div>
+            <form
+              name="Referral-Rewards"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              onSubmit={this.handleSubmit}
+            >
+              <input type="hidden" name="bot-field" />
+              <input
+                type="hidden"
+                name="form-name"
+                value="Referral-Rewards"
+              />
               <Input
                 name="clientfirstname"
                 type="text"
@@ -166,7 +202,7 @@ class Home extends Component {
                 onChange={this.handleChange}
                 required
               />
-               <Input
+              <Input
                 name="clientcity"
                 type="text"
                 value={clientcity}
@@ -183,20 +219,20 @@ class Home extends Component {
                 placeholder="CA"
                 onChange={this.handleChange}
                 required
-              />         
+              />
 
-                             <Input
+              <Input
                 name="clientzip"
-                type="number"
+                type="text"
                 value={clientzip}
                 labelName="Client's Zip Code"
                 onChange={this.handleChange}
                 required
-              />     
+              />
 
               <Input
                 name="description"
-                type="text"
+                type="textarea"
                 value={description}
                 labelName="Description"
                 onChange={this.handleChange}
@@ -224,7 +260,8 @@ class Home extends Component {
                       filename="postBG.jpg"
                     />
                     <div className="home__post__text">
-                      {item.clientfirstname && item.clientfirstname < 30
+                      {item.clientfirstname &&
+                      item.clientfirstname < 30
                         ? item.clientfirstname
                         : item.clientfirstname.slice(0, 30) + '...'}
                       <div
