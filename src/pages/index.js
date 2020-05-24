@@ -38,6 +38,9 @@ const SignInPage = () => (
           display: 'flex',
           margin: 'auto',
           padding: '1rem',
+          border: '1px solid',
+          borderColor: 'black',
+          borderRadius: '15px',
         }}
       >
 

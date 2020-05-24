@@ -24,7 +24,7 @@ const TestB = () => (
 {/*<TestButton /> */}
 
 <TouchableOpacity
-  onPress={() => alert('press')}
+  onPress={() => alert('what up, mobile native alert')}
   style={{
     padding: 10,
     backgroundColor: 'blue',
