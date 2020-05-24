@@ -41,3 +41,7 @@ public/
 /.history
 /.history/
 .history*
+
+/.expo
+/.web-build
+
