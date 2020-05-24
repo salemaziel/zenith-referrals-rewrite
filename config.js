@@ -19,7 +19,7 @@ module.exports = {
     url: 'https://referrals.zenithroofingservices.com',
     title: 'Zenith-Roofing-Services',
     description: 'Zenith Roofing Services Referral Rewards',
-    titleTemplate: 'Zenith RoofingReferral Rewards',
+    titleTemplate: 'Zenith Roofing Referral Rewards',
     subtitle:
       'Zenith Roofing Services Referral Rewards.',
     copyright: '© All rights reserved.',

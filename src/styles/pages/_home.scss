@@ -41,6 +41,10 @@
       grid-gap: 70px;
       @include breakpoint('to-tablet-l') {
       }
+      &__title {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+      }
     }
   }
   &__post {

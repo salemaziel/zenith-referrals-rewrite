@@ -4,8 +4,10 @@
   height: 100vh;
   overflow: hidden;
   @include breakpoint('phone') {
+    display: block;
     overflow: visible;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     padding: 30px;
     margin: 0 auto;
     background-image: linear-gradient(
@@ -59,7 +61,13 @@
     z-index: 1;
     display: flex;
     width: 100%;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
     justify-content: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     align-items: center;
     @include breakpoint('phone') {
       flex-grow: 3;
@@ -70,12 +78,21 @@
       width: 100%;
       display: flex;
       flex-direction: column;
+      -moz-align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
       align-items: center;
+      -moz-justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -ms-justify-content: space-between;
       justify-content: space-between;
       height: 100%;
     }
     &__providers {
       display: flex;
+      -moz-justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -ms-justify-content: space-between;
       justify-content: space-between;
       flex-wrap: nowrap;
       width: 100%;
@@ -84,6 +101,9 @@
       }
       & > div {
         display: flex;
+        -moz-justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -ms-justify-content: space-between;
         justify-content: space-between;
         width: 100%;
         height: 30px;
@@ -102,7 +122,13 @@
           height: 100%;
           color: white;
           display: flex;
+          -moz-justify-content: center;
+          -webkit-justify-content: center;
+          -ms-justify-content: center;
           justify-content: center;
+          -moz-align-items: center;
+          -webkit-align-items: center;
+          -ms-align-items: center;
           align-items: center;
           cursor: pointer;
         }
@@ -145,7 +171,13 @@
     }
     &__or {
       display: flex;
+      -moz-justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -ms-justify-content: space-between;
       justify-content: space-between;
+      -moz-align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
       align-items: center;
       width: 100%;
       margin: 30px 0;
@@ -162,11 +194,23 @@
     }
     &__creator {
       display: flex;
+      -moz-justify-content: center;
+      -webkit-justify-content: center;
+      -ms-justify-content: center;
       justify-content: center;
+      -moz-align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
       align-items: center;
       &__inner {
         display: flex;
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
         justify-content: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
         align-items: center;
         margin-left: 20%;
         margin-top: 20px;
@@ -198,12 +242,21 @@
       width: 100%;
       display: flex;
       flex-direction: column;
+      -moz-align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
       align-items: center;
       flex: 3;
+      @include breakpoint('phone') {
+        display: block;
+      }
     }
     &__form {
       display: flex;
       flex-direction: column;
+      -moz-justify-content: flex-end;
+      -webkit-justify-content: flex-end;
+      -ms-justify-content: flex-end;
       justify-content: flex-end;
       width: 100%;
       button {
@@ -216,7 +269,13 @@
     &__header {
       display: flex;
       flex-direction: column;
+      -moz-align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
       align-items: center;
+      -moz-justify-content: center;
+      -webkit-justify-content: center;
+      -ms-justify-content: center;
       justify-content: center;
       width: 100%;
       flex: 2;

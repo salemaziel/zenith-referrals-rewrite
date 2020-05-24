@@ -9,7 +9,13 @@
   }
   &__inner {
     display: flex;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
     justify-content: space-between;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -30,12 +36,18 @@
   }
   &__links {
     display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     align-items: center;
   }
   &__link {
     margin: 0 10px;
     &--github {
       display: flex;
+      -moz-align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
       align-items: center;
       color: white;
       @include breakpoint('phone') {
@@ -48,7 +60,7 @@
         margin-right: 10px;
       }
     }
-    
+
     &:first-child {
       margin-left: 0;
     }
@@ -65,19 +77,31 @@
 
   &__sidenav {
     display: none;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
     justify-content: space-between;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     align-items: center;
     height: 100%;
     width: 100%;
     @include breakpoint('phone') {
       display: flex;
       flex-direction: row;
+      -moz-justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -ms-justify-content: space-between;
       justify-content: space-between;
       height: 100%;
       width: 100%;
     }
     &__sidelinks {
       display: flex;
+      -moz-align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
       align-items: center;
       a {
         text-decoration: none;

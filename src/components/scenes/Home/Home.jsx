@@ -247,6 +247,9 @@ class Home extends Component {
           </div>
 
           <div className="home__posts__items">
+          <div className="home__posts__items__title">
+            Previous Referrals
+          </div>
             {posts &&
               posts.length > 0 &&
               posts.map((item, id) => (
