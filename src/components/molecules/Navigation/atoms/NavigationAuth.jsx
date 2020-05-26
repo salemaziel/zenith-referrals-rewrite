@@ -108,33 +108,34 @@ class NavigationAuth extends React.Component {
           title={
             <div>
               <Link>
-                <img src={Logo} width="100%" alt="" />
+               {/* <img src={Logo} width="100%" alt="" /> */}
               </Link>
             </div>
           }
           titleStyle={{
             background: 'transparent',
             margin: 'auto',
-            padding: '15px 0 0 25px',
+          /*  padding: '15px 0 0 25px',
             width: '200px',
+            */
           }}
           items={[
             <div className="navbar__sidenav__sidelinks">
               <Link
                 rel="preload"
                 className="nav-link"
-                to="/dashboard"
+                to={HOME}
               >
                 Dashboard
               </Link>
             </div>,
             <div className="navbar__sidenav__sidelinks">
-              <Link rel="preload" className="nav-link" to="/account">
+              <Link rel="preload" className="nav-link" to={ACCOUNT}>
                 Settings
               </Link>
             </div>,
             <div className="navbar__sidenav__sidelinks">
-              <Link rel="preload" className="nav-link" to="/faq">
+              <Link rel="preload" className="nav-link" to={FAQ}>
                 FAQ
               </Link>
             </div>,
@@ -159,7 +160,7 @@ class NavigationAuth extends React.Component {
             letterSpacing: '2px',
           }}
           navStyle={{
-            width: '75%',
+            width: '70%',
             /*background: '#0d4879',*/ background:
               'rgba(13,72,121,0.92)',
           }}

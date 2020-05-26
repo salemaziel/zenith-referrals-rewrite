@@ -24,34 +24,14 @@ const Questions2 = () => (
               type="checkbox"
             />
             <label className={faqStyles.acLabel} htmlFor="ac-2">
-              I love jelly donuts
+              Create An Account
             </label>
             <article className={faqStyles.acSubtext}>
               <p>
-                But not only is the sea such a foe to man who is an
-                alien to it, but it is also a fiend to its own
-                off-spring; worse than the Persian host who murdered
-                his own guests; sparing not the creatures which itself
-                hath spawned. Like a savage tigress that tossing in
-                the jungle overlays her own cubs, so the sea dashes
-                even the mightiest whales against the rocks, and
-                leaves them there side by side with the split wrecks
-                of ships. No mercy, no power but its own controls it.
-                Panting and snorting like a mad battle steed that has
-                lost its rider, the masterless ocean overruns the
-                globe.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
               <p>
-                Consider the subtleness of the sea; how its most
-                dreaded creatures glide under water, unapparent for
-                the most part, and treacherously hidden beneath the
-                loveliest tints of azure. Consider also the devilish
-                brilliance and beauty of many of its most remorseless
-                tribes, as the dainty embellished shape of many
-                species of sharks. Consider, once more, the universal
-                cannibalism of the sea; all whose creatures prey upon
-                each other, carrying on eternal war since the world
-                began.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
             </article>
           </div>
@@ -63,29 +43,14 @@ const Questions2 = () => (
               type="checkbox"
             />
             <label className={faqStyles.acLabel} htmlFor="ac-3">
-              They are so delicious
+              Submit Referrals From Your Dashboard
             </label>
             <article className={faqStyles.acSubtext}>
               <p>
-                My younger brother was in London when the Martians
-                fell at Woking. He was a medical student working for
-                an imminent examination, and he heard nothing of the
-                arrival until Saturday morning. The morning papers on
-                Saturday contained, in addition to lengthy special
-                articles on the planet Mars, on life in the planets,
-                and so forth, a brief and vaguely worded telegram, all
-                the more striking for its brevity.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
               <p>
-                The Martians, alarmed by the approach of a crowd, had
-                killed a number of people with a quick-firing gun, so
-                the story ran. The telegram concluded with the words:
-                "Formidable as they seem to be, the Martians have not
-                moved from the pit into which they have fallen, and,
-                indeed, seem incapable of doing so. Probably this is
-                due to the relative strength of the earth's
-                gravitational energy." On that last text their
-                leader-writer expanded very comfortingly.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
             </article>
           </div>
@@ -113,34 +78,14 @@ const Questions2 = () => (
               type="checkbox"
             />
             <label className={faqStyles.acLabel} htmlFor="ac-5">
-              I also love regular donuts
+              FAQ SubItem 1
             </label>
             <article className={faqStyles.acSubtext}>
               <p>
-                But not only is the sea such a foe to man who is an
-                alien to it, but it is also a fiend to its own
-                off-spring; worse than the Persian host who murdered
-                his own guests; sparing not the creatures which itself
-                hath spawned. Like a savage tigress that tossing in
-                the jungle overlays her own cubs, so the sea dashes
-                even the mightiest whales against the rocks, and
-                leaves them there side by side with the split wrecks
-                of ships. No mercy, no power but its own controls it.
-                Panting and snorting like a mad battle steed that has
-                lost its rider, the masterless ocean overruns the
-                globe.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
               <p>
-                Consider the subtleness of the sea; how its most
-                dreaded creatures glide under water, unapparent for
-                the most part, and treacherously hidden beneath the
-                loveliest tints of azure. Consider also the devilish
-                brilliance and beauty of many of its most remorseless
-                tribes, as the dainty embellished shape of many
-                species of sharks. Consider, once more, the universal
-                cannibalism of the sea; all whose creatures prey upon
-                each other, carrying on eternal war since the world
-                began.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
             </article>
           </div>
@@ -152,29 +97,14 @@ const Questions2 = () => (
               type="checkbox"
             />
             <label className={faqStyles.acLabel} htmlFor="ac-6">
-              They are also delicious
+              FAQ SubItem 2
             </label>
             <article className={faqStyles.acSubtext}>
               <p>
-                My younger brother was in London when the Martians
-                fell at Woking. He was a medical student working for
-                an imminent examination, and he heard nothing of the
-                arrival until Saturday morning. The morning papers on
-                Saturday contained, in addition to lengthy special
-                articles on the planet Mars, on life in the planets,
-                and so forth, a brief and vaguely worded telegram, all
-                the more striking for its brevity.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
               <p>
-                The Martians, alarmed by the approach of a crowd, had
-                killed a number of people with a quick-firing gun, so
-                the story ran. The telegram concluded with the words:
-                "Formidable as they seem to be, the Martians have not
-                moved from the pit into which they have fallen, and,
-                indeed, seem incapable of doing so. Probably this is
-                due to the relative strength of the earth's
-                gravitational energy." On that last text their
-                leader-writer expanded very comfortingly.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
             </article>
           </div>
@@ -202,34 +132,14 @@ const Questions2 = () => (
               type="checkbox"
             />
             <label className={faqStyles.acLabel} htmlFor="ac-8">
-              I also love regular donuts
+              FAQ SubItem 1
             </label>
             <article className={faqStyles.acSubtext}>
               <p>
-                But not only is the sea such a foe to man who is an
-                alien to it, but it is also a fiend to its own
-                off-spring; worse than the Persian host who murdered
-                his own guests; sparing not the creatures which itself
-                hath spawned. Like a savage tigress that tossing in
-                the jungle overlays her own cubs, so the sea dashes
-                even the mightiest whales against the rocks, and
-                leaves them there side by side with the split wrecks
-                of ships. No mercy, no power but its own controls it.
-                Panting and snorting like a mad battle steed that has
-                lost its rider, the masterless ocean overruns the
-                globe.
+                BLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
               <p>
-                Consider the subtleness of the sea; how its most
-                dreaded creatures glide under water, unapparent for
-                the most part, and treacherously hidden beneath the
-                loveliest tints of azure. Consider also the devilish
-                brilliance and beauty of many of its most remorseless
-                tribes, as the dainty embellished shape of many
-                species of sharks. Consider, once more, the universal
-                cannibalism of the sea; all whose creatures prey upon
-                each other, carrying on eternal war since the world
-                began.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
             </article>
           </div>
@@ -241,29 +151,14 @@ const Questions2 = () => (
               type="checkbox"
             />
             <label className={faqStyles.acLabel} htmlFor="ac-9">
-              They are also delicious
+              FAQ SubItem 2
             </label>
             <article className={faqStyles.acSubtext}>
               <p>
-                My younger brother was in London when the Martians
-                fell at Woking. He was a medical student working for
-                an imminent examination, and he heard nothing of the
-                arrival until Saturday morning. The morning papers on
-                Saturday contained, in addition to lengthy special
-                articles on the planet Mars, on life in the planets,
-                and so forth, a brief and vaguely worded telegram, all
-                the more striking for its brevity.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
               <p>
-                The Martians, alarmed by the approach of a crowd, had
-                killed a number of people with a quick-firing gun, so
-                the story ran. The telegram concluded with the words:
-                "Formidable as they seem to be, the Martians have not
-                moved from the pit into which they have fallen, and,
-                indeed, seem incapable of doing so. Probably this is
-                due to the relative strength of the earth's
-                gravitational energy." On that last text their
-                leader-writer expanded very comfortingly.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
             </article>
           </div>
@@ -292,34 +187,14 @@ const Questions2 = () => (
               type="checkbox"
             />
             <label className={faqStyles.acLabel} htmlFor="ac-11">
-              I also love regular donuts
+              FAQ SubItem 1
             </label>
             <article className={faqStyles.acSubtext}>
               <p>
-                But not only is the sea such a foe to man who is an
-                alien to it, but it is also a fiend to its own
-                off-spring; worse than the Persian host who murdered
-                his own guests; sparing not the creatures which itself
-                hath spawned. Like a savage tigress that tossing in
-                the jungle overlays her own cubs, so the sea dashes
-                even the mightiest whales against the rocks, and
-                leaves them there side by side with the split wrecks
-                of ships. No mercy, no power but its own controls it.
-                Panting and snorting like a mad battle steed that has
-                lost its rider, the masterless ocean overruns the
-                globe.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
               <p>
-                Consider the subtleness of the sea; how its most
-                dreaded creatures glide under water, unapparent for
-                the most part, and treacherously hidden beneath the
-                loveliest tints of azure. Consider also the devilish
-                brilliance and beauty of many of its most remorseless
-                tribes, as the dainty embellished shape of many
-                species of sharks. Consider, once more, the universal
-                cannibalism of the sea; all whose creatures prey upon
-                each other, carrying on eternal war since the world
-                began.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
             </article>
           </div>
@@ -331,29 +206,14 @@ const Questions2 = () => (
               type="checkbox"
             />
             <label className={faqStyles.acLabel} htmlFor="ac-12">
-              They are also delicious
+              FAQ SubItem 2
             </label>
             <article className={faqStyles.acSubtext}>
               <p>
-                My younger brother was in London when the Martians
-                fell at Woking. He was a medical student working for
-                an imminent examination, and he heard nothing of the
-                arrival until Saturday morning. The morning papers on
-                Saturday contained, in addition to lengthy special
-                articles on the planet Mars, on life in the planets,
-                and so forth, a brief and vaguely worded telegram, all
-                the more striking for its brevity.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
               <p>
-                The Martians, alarmed by the approach of a crowd, had
-                killed a number of people with a quick-firing gun, so
-                the story ran. The telegram concluded with the words:
-                "Formidable as they seem to be, the Martians have not
-                moved from the pit into which they have fallen, and,
-                indeed, seem incapable of doing so. Probably this is
-                due to the relative strength of the earth's
-                gravitational energy." On that last text their
-                leader-writer expanded very comfortingly.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
             </article>
           </div>
@@ -370,7 +230,7 @@ const Questions2 = () => (
           type="checkbox"
         />
         <label className={faqStyles.acLabel} htmlFor="ac-13">
-          My Referrals Are Not Being Recorded Correctly. What Should I?
+          My Referrals Are Not Being Recorded Correctly. What Should I Do?
         </label>
         <article className={faqStyles.acText}>
         <div style={{padding: '0 1em 0 1.5em'}}>
