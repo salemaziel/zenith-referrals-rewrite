@@ -23,6 +23,24 @@
       background-position: center center;
       background-attachment: fixed;
     }
+    &__details {
+      display: flex;
+      flex-direction: column;
+      margin: 30px 0;
+    }
+
+    &__title {
+      margin-bottom: 5px;
+      padding-left: 50px;
+      color: black;
+      @include breakpoint('phone') {
+        margin-bottom: 5px;
+        padding-left: 0px;
+        color: white;
+        text-shadow: 2px 2px 3px rgba(13, 72, 121, 1);
+      }
+    }
+  
     &__image {
       position: relative;
       flex: 4;
@@ -46,7 +64,7 @@
             rgba(#0d4879, 0.9) 10%,
             rgba(#0d4879, 0.7),70%,
             rgba(#ff9900, 0.45) 90%
-          ),
+          ), 
           url('https://res.cloudinary.com/dexdumfqy/image/upload/v1590004280/zenithroofing/birdseye_neq4yb.jpg');
   
         background-repeat: no-repeat;

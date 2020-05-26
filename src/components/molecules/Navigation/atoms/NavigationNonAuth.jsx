@@ -5,6 +5,9 @@ import {
   HOME,
   ACCOUNT,
   FAQ,
+  SIGN_IN,
+  SIGN_UP,
+
 } from '../../../../constants/routes';
 import SignOutButton from './SignOutButton';
 import SideNav, { MenuIcon } from 'react-simple-sidenav';
@@ -24,7 +27,38 @@ class NavigationNonAuth extends React.Component {
   }
   render() {
     return (
-      <div className="navbar">
+<div className="navbar">
+        <div className="navbar__inner">
+          <div className="navbar__left">
+            <div className="navbar__logo">
+              <Link to={LANDING}>
+                <img src={Logo} alt="logo" />
+              </Link>
+            </div>
+            <div className="navbar__links">
+              {/*   <div className="navbar__link">
+            <Link to={LANDING}>Landing</Link>
+          </div> */}
+              <div className="navbar__link">
+                <Link to={SIGN_IN}>Sign In</Link>
+              </div>
+              <div className="navbar__link">
+                <Link to={SIGN_UP}>Sign Up</Link>
+              </div>
+              <div className="navbar__link">
+                <Link to={FAQ}>FAQ</Link>
+              </div>
+
+            </div>
+          </div>
+
+         {/* <div className="navbar__user">
+            <div className="navbar__item">
+              <SignOutButton />
+            </div>
+        </div>*/}
+        </div>
+
         <div className="navbar__sidenav">
           <div className="navbar__left">
             <div className="navbar__logo">
@@ -71,30 +105,17 @@ class NavigationNonAuth extends React.Component {
               <Link
                 rel="preload"
                 className="nav-link"
-                to={HOME}
-              >
-                Dashboard
-              </Link>
+                to={SIGN_IN}>Sign In</Link>
             </div>,
             <div className="navbar__sidenav__sidelinks">
-              <Link rel="preload" className="nav-link" to={ACCOUNT}>
-                Settings
-              </Link>
+              <Link rel="preload" className="nav-link" to={SIGN_UP}>Sign Up</Link>
             </div>,
             <div className="navbar__sidenav__sidelinks">
               <Link rel="preload" className="nav-link" to={FAQ}>
                 FAQ
               </Link>
             </div>,
-            <div className="navbar__sidenav__sidelinks">
-              <div
-                style={{
-                  margin: 'auto',
-                }}
-              >
-                <SignOutButton />
-              </div>
-            </div>,
+
           ]}
           itemStyle={{
             background: 'inherit',

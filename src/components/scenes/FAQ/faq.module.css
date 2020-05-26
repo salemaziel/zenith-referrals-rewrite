@@ -98,10 +98,15 @@
   }
   
   .acSub .acInput:checked + label, .acSub .acLabel:hover {
-    background: none;
+    background: #0d4879;
   }
   
   .acSubtext {
     padding: 0 1em 0 2em;
   }
   
+  @media screen and (max-width: 980px) {
+    .acSub .acInput:checked + label, .acSub .acLabel:hover {
+      background: none;
+    }
+  }
