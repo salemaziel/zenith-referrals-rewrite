@@ -1,0 +1,107 @@
+/*body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  */
+  h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-weight: 300;
+  }
+  
+  .QuestionSection {
+    width: 100%;
+    margin: 2rem auto;
+  }
+  
+  .acFull {
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  .acLabel {
+    font-weight: 700;
+    position: relative;
+    padding: .5em 2em .5em 1em;
+    margin-bottom: .5em;
+    display: block;
+    cursor: pointer;
+    background-color: whiteSmoke;
+    transition: background-color .15s ease-in-out;
+    width: 100%;
+  }
+  
+  .acInput:checked + label, .acLabel:hover {
+    background-color: #0d4879;
+    color: #fff;
+  }
+  
+  .acLabel:after, .acInput:checked + .acLabel:after {
+    content: "+";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 2em;
+    height: 100%;
+    line-height: 2.25em;
+    text-align: center;
+    background-color: #ff9900;
+    transition: background-color .15s ease-in-out;
+    color: #0d4879;
+  }
+  
+  .acLabel:hover:after, .acInput:checked + .acLabel:after {
+    background-color: #0d4879;
+  }
+  
+  .acInput:checked + .acLabel:after {
+    content: "-";
+  }
+  
+  .acInput {
+    display: none;
+  }
+  
+  .acText, .acSubtext {
+    opacity: 0;
+    height: 0;
+    margin-bottom: .5em;
+    transition: opacity .5s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .acInput:checked ~ .acText, .acSub .acInput:checked ~ .acSubtext {
+    opacity: 1;
+    height: auto;
+    background-color: rgba(255,255,255,0.6);
+  }
+  
+  .acSub .acLabel {
+    background: none;
+    font-weight: 600;
+    padding: .5em 2em;
+    margin-bottom: 0;
+  }
+  
+  .acSub .acLabel:checked {
+    background: none;
+    border-bottom: 1px solid whitesmoke;
+  }
+  
+  .acSub .acLabel:after, .acSub .acInput:checked + .acLabel:after {
+    left: 0;
+    background: none;
+  }
+  
+  .acSub .acInput:checked + label, .acSub .acLabel:hover {
+    background: none;
+  }
+  
+  .acSubtext {
+    padding: 0 1em 0 2em;
+  }
+  

@@ -32,15 +32,14 @@ const withEmailVerification = Component => {
               <div className="email-verification container">
                 {this.state.isSent ? (
                   <p>
-                    E-Mail confirmation sent: Check you E-Mails (Spam
-                    folder included) for a confirmation E-Mail.
-                    Refresh this page once you confirmed your E-Mail.
+                    Please verify your email for this account, check your email inbox (Spam folder
+                    included) for a confirmation email, or send another confirmation email with the button below.
+                    Refresh this page once you confirmed your email address.
                   </p>
                 ) : (
                   <p>
-                    Verify your E-Mail: Check you E-Mails (Spam folder
-                    included) for a confirmation E-Mail or send
-                    another confirmation E-Mail.
+                    Please verify your email for this account, check your email inbox (Spam folder
+                    included) for a confirmation email, or send another confirmation email with the button below.
                   </p>
                 )}
 

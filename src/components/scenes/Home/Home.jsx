@@ -177,20 +177,20 @@ class Home extends Component {
                 onChange={this.handleChange}
                 required
               />
+
+                            <Input
+                name="clientphone"
+                type="tel"
+                value={clientphone}
+                labelName="Client's Phone"
+                onChange={this.handleChange}
+                required
+              />
               <Input
                 name="clientemail"
                 type="email"
                 value={clientemail}
                 labelName="Client's Email"
-                onChange={this.handleChange}
-                required
-              />
-
-              <Input
-                name="clientphone"
-                type="tel"
-                value={clientphone}
-                labelName="Client's Phone"
                 onChange={this.handleChange}
                 required
               />
@@ -234,7 +234,7 @@ class Home extends Component {
                 name="description"
                 type="textarea"
                 value={description}
-                labelName="Description"
+                labelName="Other Notes"
                 onChange={this.handleChange}
                 required
               />

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { LANDING, HOME, ACCOUNT } from '../../../../constants/routes';
+import { LANDING, HOME, ACCOUNT, FAQ } from '../../../../constants/routes';
 import SignOutButton from './SignOutButton';
-import SideNav, { MenuIcon } from 'react-simple-sidenav'
+import SideNav, { MenuIcon } from 'react-simple-sidenav';
 
-import Logo from '../../../../assets/full-logo-noBG-x512.png'
+import Logo from '../../../../assets/full-logo-noBG-x512.png';
 
 //const NavigationAuth = () => (
 
@@ -26,10 +26,7 @@ class NavigationAuth extends React.Component {
           <div className="navbar__left">
             <div className="navbar__logo">
               <Link to={HOME}>
-                <img
-                  src={Logo}
-                  alt="logo"
-                />
+                <img src={Logo} alt="logo" />
               </Link>
             </div>
             <div className="navbar__links">
@@ -41,6 +38,9 @@ class NavigationAuth extends React.Component {
               </div>
               <div className="navbar__link">
                 <Link to={ACCOUNT}>Settings</Link>
+              </div>
+              <div className="navbar__link">
+                <Link to={FAQ}>FAQ</Link>
               </div>
               {/*     <div className="navbar__link navbar__link--github">
             <span className="navbar__link--github__a">
@@ -82,23 +82,24 @@ class NavigationAuth extends React.Component {
           <div className="navbar__left">
             <div className="navbar__logo">
               <Link to={HOME}>
-                <img
-                  src={Logo}
-                  alt="logo"
-                  />
+                <img src={Logo} alt="logo" />
               </Link>
             </div>
           </div>
 
-          <div style={{
+          <div
+            style={{
+              width: '40px',
+            }}
+          >
+            {' '}
+            <MenuIcon
+              style={{
                 width: '40px',
-          }}>{' '}
-              <MenuIcon
-                style={{
-                  width: '40px',
-                  height: 'auto',
-                }}
-                onClick={() => this.setState({ showNav: true })}/>
+                height: 'auto',
+              }}
+              onClick={() => this.setState({ showNav: true })}
+            />
           </div>
         </div>
 
@@ -112,14 +113,18 @@ class NavigationAuth extends React.Component {
             </div>
           }
           titleStyle={{
-            background: "transparent",
-            margin: "auto",
+            background: 'transparent',
+            margin: 'auto',
             padding: '15px 0 0 25px',
             width: '200px',
           }}
           items={[
             <div className="navbar__sidenav__sidelinks">
-              <Link rel="preload" className="nav-link" to="/dashboard">
+              <Link
+                rel="preload"
+                className="nav-link"
+                to="/dashboard"
+              >
                 Dashboard
               </Link>
             </div>,
@@ -128,25 +133,36 @@ class NavigationAuth extends React.Component {
                 Settings
               </Link>
             </div>,
-          <div className="navbar__sidenav__sidelinks">
-              <div style={{
-                  margin: 'auto'
-              }}>
-              <SignOutButton />
-            </div>
-          </div>,
+            <div className="navbar__sidenav__sidelinks">
+              <Link rel="preload" className="nav-link" to="/faq">
+                FAQ
+              </Link>
+            </div>,
+            <div className="navbar__sidenav__sidelinks">
+              <div
+                style={{
+                  margin: 'auto',
+                }}
+              >
+                <SignOutButton />
+              </div>
+            </div>,
           ]}
           itemStyle={{
-            background: "inherit",
-            color: "#fff",
-            textAlign: "center",
+            background: 'inherit',
+            color: '#fff',
+            textAlign: 'center',
             listStyleType: 'none',
             fontSize: '1.3rem',
             padding: '20px 0',
             fontWeight: '500',
-            letterSpacing: '2px'
+            letterSpacing: '2px',
           }}
-          navStyle={{ width: "75%", /*background: '#0d4879',*/ background: 'rgba(13,72,121,0.92)' }}
+          navStyle={{
+            width: '75%',
+            /*background: '#0d4879',*/ background:
+              'rgba(13,72,121,0.92)',
+          }}
           showNav={this.state.showNav}
           onHideNav={() => this.setState({ showNav: false })}
         />

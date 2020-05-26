@@ -96,6 +96,9 @@
       justify-content: space-between;
       height: 100%;
       width: 100%;
+      margin: auto;
+      background-color: $color-secondary;
+
     }
     &__sidelinks {
       display: flex;
